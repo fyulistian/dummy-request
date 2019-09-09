@@ -11,7 +11,7 @@
               "name": "One Day Delivery",
               "estimatedDeliveryDays": 1,
               "estimatedDeliveryDate": "2019-09-06T00:00:00Z",
-              "cost": 10000,
+              "cost": 10000
             },
             {
               "code": "standard",
