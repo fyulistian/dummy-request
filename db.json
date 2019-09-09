@@ -1,28 +1,32 @@
 {
-  "status": true,
-  "data": [
+  "shipping_matrix" : [
     {
-      "sku": "SKU-1",
-      "availableShippingMethods": [
+      "status": true,
+      "data": [
         {
-          "code": "one_day_delivery",
-          "name": "One Day Delivery",
-          "estimatedDeliveryDays": 1,
-          "estimatedDeliveryDate": "2019-09-06T00:00:00Z",
-          "cost": 10000,
+          "sku": "SKU-1",
+          "availableShippingMethods": [
+            {
+              "code": "one_day_delivery",
+              "name": "One Day Delivery",
+              "estimatedDeliveryDays": 1,
+              "estimatedDeliveryDate": "2019-09-06T00:00:00Z",
+              "cost": 10000,
+            },
+            {
+              "code": "standard",
+              "name": "Standard",
+              "estimatedDeliveryDays": 5,
+              "estimatedDeliveryDate": "2019-09-06T00:00:00Z",
+              "cost": 5000
+            }
+          ],
         },
         {
-          "code": "standard",
-          "name": "Standard",
-          "estimatedDeliveryDays": 5,
-          "estimatedDeliveryDate": "2019-09-06T00:00:00Z",
-          "cost": 5000
+          "sku": "SKU-2",
+          "availableShippingMethods": []
         }
-      ],
-    },
-    {
-      "sku": "SKU-2",
-      "availableShippingMethods": []
+      ]
     }
   ]
 }
