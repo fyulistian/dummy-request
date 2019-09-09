@@ -20,11 +20,7 @@
               "estimatedDeliveryDate": "2019-09-06T00:00:00Z",
               "cost": 5000
             }
-          ],
-        },
-        {
-          "sku": "SKU-2",
-          "availableShippingMethods": []
+          ]
         }
       ]
     }
