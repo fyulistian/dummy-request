@@ -25,7 +25,7 @@
     },
     {
       "sku": "SKU-2",
-      "availableShippingMethods": [] // example of available shipping method is empty
+      "availableShippingMethods": []
     }
   ]
 }
